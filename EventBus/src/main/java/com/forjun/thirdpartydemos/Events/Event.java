@@ -5,4 +5,10 @@ package com.forjun.thirdpartydemos.Events;
  */
 
 public class Event {
+    private String mString;
+
+    public Event(String mString){
+
+    }
+
 }
