@@ -5,10 +5,13 @@ package com.forjun.thirdpartydemos.Events;
  */
 
 public class Event {
-    private String mString;
+    private String msg;
 
     public Event(String mString){
-
+        msg = mString;
     }
 
+    public String getMsg(){
+        return  msg;
+    }
 }
